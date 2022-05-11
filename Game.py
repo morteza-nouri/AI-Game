@@ -252,7 +252,7 @@ class ConnectSin:
                         bestValue = value
                     alpha = max(alpha, value)
                     if alpha >= beta:
-                        break
+                        beta
                 self.board = copy.deepcopy(boardCpy)
             return column, bestValue
 
